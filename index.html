@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Javascript Black Jack</title>
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div id='dealer-card-holder'>
+    <div id='dealer-card-div'></div>
+    <h3 class='dealer-total'>Dealer's Total:</h3><h3 id='dealer-score'></h3>
+  
+  
+  
+    
+  <div id='message-container'>
+    <h3 id='bust-message'>You Went BUST!</h3>
+    <h3 id='dealer-bust-message'>The dealer went BUST!</h3>
+    <h3 id='dealer-win'>The dealer won!</h3>
+    <h3 id='player-win'>You won!</h3>
+    <h3 id='push'>Push (tie)</h3>
+    <button type='button' id='play-again' class='btn'>Play Again?</button>
+  </div>
+  
+  <button type='button' id='play-again' class='btn'>Play Again?</button>
+  
+  
+  <div id='card-holder'>
+    <div id="card-div"></div>
+  
+  <div id='button-div'>
+    <button type="button" id="hit" class='btn'>HIT</button>
+    <button type="button" id="stand" class='btn'>STAND</button>
+    <button type="button" id="stand" class='btn secret'>STAND</button>
+    
+  </div>
+  <h3 class='your-total'>Your Total:</h3><h3 id='score'></h3>
+  <div>
+    <div id='play-again'>
+      <button type='button' id='play-again-button'>Play Again?</button>
+    </div>
+  </div> 
+  </div> <!-- end card-holder div  -->
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src='first_draft.js'></script>
+</body>
+</html>

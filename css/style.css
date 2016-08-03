@@ -1,0 +1,150 @@
+body {
+  background-color: #939393;
+} 
+
+.card {
+  margin: .15em; 
+}
+
+#card-div {
+
+}
+
+#dealer-card-holder {
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+#score {
+  display: inline;
+  margin-right: 2.0em;
+/*  float: right;*/
+  font-size: 2.0em;
+}
+
+.your-total {
+  display: inline;
+  margin-right: 1.0em;
+  /*float: right;*/
+  font-size: 2.0em;
+}
+
+#dealer-score {
+  display: inline-block;
+  margin-right: 2.0em;
+/*  float: left;*/
+  font-size: 2.0em;
+}
+
+.dealer-total {
+  display: inline-block;
+/*  float: left;*/
+  font-size: 2.0em;
+  margin: 0.0em 1.0em 2.4em 0.0em;
+}
+
+h3 {
+  display: inline;
+  margin-top: 0em;
+  font-size: 2.0em;
+}
+
+
+/*#button-div {
+  margin: auto;
+  width: 50%;
+}*/
+
+.grayed {
+  opacity: 0.3;
+}
+
+#bust-message {
+  display: none;
+}
+#dealer-bust-message {
+  display: none;
+}
+
+#card-holder {
+  position: relative;
+  margin-left: 27%;
+}
+
+#play-again {
+  display: none;
+  float:right;
+  margin-left: .75em;
+  margin-top: .25em;
+/*  margin: auto;
+  width: 50%;*/
+}
+
+#coverCard {
+}
+
+#dealer-win {
+  display: none;
+}
+
+#player-win {
+  display: none;
+}
+
+.btn {
+  display:inline;
+  background: #408544;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  /*padding: 10px 20px 10px 20px;*/
+  text-decoration: none;
+  border: none;
+  line-height: 30px;
+  height:30px;
+  padding: none;
+}
+
+.btn:hover {
+  display:inline;
+  background: #29702d;
+  font-size: 20px;
+  font-family: Arial;
+  text-decoration: none;
+  line-height: 30px;
+  height:30px;
+  padding: none;
+}
+
+.secret {
+  visibility: hidden;
+  display:inline;
+  background: #29702d;
+  font-size: 20px;
+  font-family: Arial;
+  text-decoration: none;
+  line-height: 30px;
+  height:30px;
+  padding: none;
+}
+
+#message-container {
+  display: inline-block;
+}
+
+#hit {
+  margin: 0.5% 0 0.5% 10%;
+}
+
+#push{
+  display: none;
+  
+}
+
+
+
+
+
+
+
+
